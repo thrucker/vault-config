@@ -1,0 +1,8 @@
+[template]
+src = "config.hcl.tmpl"
+dest = "/config/config.hcl"
+owner = "root"
+mode = "0644"
+keys = [
+    "/self/service/metadata/config.hcl",
+]
